@@ -315,7 +315,6 @@ input[type=button] {
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -340,6 +339,10 @@ input[type=button] {
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
+}
+
+.reviews figure {
+  width: 50%;
 }
 
 .reviews h3 {
